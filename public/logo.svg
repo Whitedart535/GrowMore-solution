@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 240" width="100%" height="100%">
+  <defs>
+    <!-- Brand Colors Gradients -->
+    <linearGradient id="blueArrowGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#003D7A" />
+      <stop offset="50%" stop-color="#0057A8" />
+      <stop offset="100%" stop-color="#1B7DDD" />
+    </linearGradient>
+
+    <linearGradient id="greenBarGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#2D7914" />
+      <stop offset="100%" stop-color="#42A51F" />
+    </linearGradient>
+
+    <linearGradient id="greenLeafGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#348B18" />
+      <stop offset="100%" stop-color="#55C42B" />
+    </linearGradient>
+
+    <linearGradient id="growTextGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3FA11C" />
+      <stop offset="100%" stop-color="#2D7A14" />
+    </linearGradient>
+
+    <linearGradient id="moreTextGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0057A8" />
+      <stop offset="100%" stop-color="#00356B" />
+    </linearGradient>
+  </defs>
+
+  <!-- LOGO EMBLEM GRAPHIC -->
+  <g transform="translate(140, -10)">
+    <!-- Green Growth Bars -->
+    <!-- Bar 1 -->
+    <rect x="25" y="78" width="14" height="42" rx="3" fill="url(#greenBarGrad)" />
+    <!-- Bar 2 -->
+    <rect x="44" y="65" width="14" height="55" rx="3" fill="url(#greenBarGrad)" />
+    <!-- Bar 3 -->
+    <rect x="63" y="52" width="14" height="68" rx="3" fill="url(#greenBarGrad)" />
+
+    <!-- Triple Leaves Sprouting -->
+    <!-- Left Leaf -->
+    <path d="M 62 60 C 42 45 45 25 62 20 C 65 38 78 45 62 60 Z" fill="url(#greenLeafGrad)" />
+    <!-- Center Leaf -->
+    <path d="M 85 52 C 85 22 105 10 105 32 C 105 48 92 56 85 52 Z" fill="url(#greenLeafGrad)" />
+    <!-- Right Leaf -->
+    <path d="M 102 58 C 118 42 142 50 135 68 C 118 70 108 62 102 58 Z" fill="url(#greenLeafGrad)" />
+    <!-- Leaf Stem Center stroke -->
+    <path d="M 85 75 Q 86 52 95 38" fill="none" stroke="#266911" stroke-width="2.5" stroke-linecap="round" />
+
+    <!-- Upward Swooping Blue Arrow -->
+    <!-- Outer Swoosh and Arrow Head -->
+    <path d="M 5 88 C 12 125 75 142 165 105 C 145 105 110 115 65 112 C 32 110 20 95 18 85 C 16 75 35 48 35 48 C 35 48 10 65 5 88 Z" fill="none" />
+    
+    <path d="M 5 85 C 10 128 70 148 175 115 L 165 98 L 210 92 L 198 135 L 186 118 C 85 152 15 132 5 85 Z" fill="url(#blueArrowGrad)" />
+    <!-- Inner Swoosh Arch -->
+    <path d="M 28 116 C 60 132 120 122 180 90 C 125 116 65 120 28 116 Z" fill="#00356B" opacity="0.6" />
+  </g>
+
+  <!-- LOGO TYPOGRAPHY -->
+  <!-- Grow More -->
+  <g transform="translate(250, 178)" text-anchor="middle">
+    <!-- "Grow" -->
+    <text x="-92" y="0" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-weight="800" font-size="52" fill="url(#growTextGrad)" letter-spacing="-1">Grow</text>
+    <!-- "More" -->
+    <text x="75" y="0" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-weight="800" font-size="52" fill="url(#moreTextGrad)" letter-spacing="-1">More</text>
+  </g>
+
+  <!-- SOLUTIONS Subtitle with Accent Lines -->
+  <g transform="translate(250, 212)" text-anchor="middle">
+    <!-- Left Line -->
+    <line x1="-190" y1="-5" x2="-80" y2="-5" stroke="#94A3B8" stroke-width="1.8" stroke-linecap="round" />
+    <!-- Text -->
+    <text x="0" y="0" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-weight="700" font-size="19" fill="#334155" letter-spacing="8">SOLUTIONS</text>
+    <!-- Right Line -->
+    <line x1="80" y1="-5" x2="190" y2="-5" stroke="#94A3B8" stroke-width="1.8" stroke-linecap="round" />
+  </g>
+</svg>
