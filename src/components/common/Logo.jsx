@@ -8,20 +8,24 @@ import React from 'react';
 export default function Logo({ 
   className, 
   size = "md", 
-  variant = "light" 
+  variant = "light",
+  style
 }) {
   // Pre-configured prominent size maps if specific size prop is provided
   const sizeClasses = {
-    sm: "h-14 sm:h-16",
-    md: "h-18 sm:h-22 lg:h-26",  // Increased, attractive size for navbar & headers
-    lg: "h-24 sm:h-30 lg:h-36",  // Extra bold for hero or showcase banners
-    xl: "h-32 sm:h-40 lg:h-52",  // Display banner size
+    sm: "h-16 sm:h-18",
+    md: "h-20 sm:h-24 lg:h-28",  // Extra large & prominent for headers
+    lg: "h-28 sm:h-34 lg:h-40",  // Bold showcase size
+    xl: "h-36 sm:h-44 lg:h-56",  // Banner size
   };
 
   const activeSize = className || sizeClasses[size] || sizeClasses.md;
 
   return (
-    <div className={`inline-flex items-center select-none logo-glow-wrapper ${activeSize}`}>
+    <div 
+      className={`inline-flex items-center select-none logo-glow-wrapper ${activeSize}`}
+      style={style}
+    >
       <img
         src="/logo.svg"
         alt="Grow More Solution Logo"
