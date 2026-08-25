@@ -1,36 +1,38 @@
 import React from 'react';
 
 /**
- * Official Logo Component for Grow More Solution.
- * Renders the official brand logo with prominent sizing, subtle hover glows, 
- * and drop-shadow depth while preserving the original logo graphic.
+ * Official Brand Logo Component for Grow More Solution.
+ * Preserves the exact official brand logo reference asset without redesign,
+ * distortion, or artificial CSS effects. Ensures 100% aspect ratio retention
+ * and responsive scaling across mobile, tablet, and desktop.
  */
 export default function Logo({ 
   className, 
   size = "md", 
-  variant = "light",
-  style
+  style 
 }) {
-  // Pre-configured prominent size maps if specific size prop is provided
+  // Responsive, balanced header & section height mappings
   const sizeClasses = {
-    sm: "h-16 sm:h-18",
-    md: "h-20 sm:h-24 lg:h-28",  // Extra large & prominent for headers
-    lg: "h-28 sm:h-34 lg:h-40",  // Bold showcase size
-    xl: "h-36 sm:h-44 lg:h-56",  // Banner size
+    sm: "h-10 sm:h-12",
+    md: "h-12 sm:h-14 lg:h-16",  // Standard navbar display (48px - 64px)
+    lg: "h-14 sm:h-16 lg:h-18",  // Footer & highlight sections
+    xl: "h-20 sm:h-24 lg:h-28",  // Hero / Banner display
   };
 
   const activeSize = className || sizeClasses[size] || sizeClasses.md;
 
   return (
     <div 
-      className={`inline-flex items-center select-none shrink-0 ${activeSize}`}
+      className={`inline-flex items-center justify-center select-none shrink-0 ${activeSize}`}
       style={style}
     >
       <img
         src="/logo.png"
         alt="Grow More Solution Logo"
-        className="h-full w-auto object-contain transition-all duration-300 transform group-hover:scale-105"
+        className="w-auto h-full max-h-full object-contain block transition-opacity duration-200"
         style={{
+          aspectRatio: '480 / 345',
+          objectFit: 'contain',
           imageRendering: 'high-quality',
           WebkitFontSmoothing: 'antialiased',
         }}

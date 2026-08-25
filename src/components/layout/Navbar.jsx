@@ -34,24 +34,24 @@ export default function Navbar() {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
-          ? 'glass-nav py-3.5 sm:py-4 lg:py-5 border-b border-slate-200/80 shadow-md backdrop-blur-xl'
-          : 'bg-white/85 backdrop-blur-md py-5 sm:py-6 lg:py-7 border-b border-slate-200/60 shadow-sm'
+          ? 'glass-nav py-2.5 sm:py-3 border-b border-slate-200/80 shadow-md backdrop-blur-xl'
+          : 'bg-white/95 backdrop-blur-md py-3.5 sm:py-4 border-b border-slate-100 shadow-xs'
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
-          {/* Brand Logo - Enlarged & Prominent */}
-          <a href="#home" className="flex items-center focus:outline-none group py-1">
-            <Logo className="h-20 sm:h-24 lg:h-28 xl:h-32" />
+          {/* Brand Logo - Official Enterprise Asset */}
+          <a href="#home" className="flex items-center focus:outline-none py-0.5 group">
+            <Logo className="h-12 sm:h-14 lg:h-16 shrink-0" />
           </a>
 
           {/* Desktop Navigation with Enhanced Font & Styling */}
-          <nav className="hidden lg:flex items-center gap-1.5 xl:gap-2.5">
+          <nav className="hidden lg:flex items-center gap-1 xl:gap-2">
             {navLinks.map((link) => (
               <a
                 key={link.name}
                 href={link.href}
-                className="px-4 py-2.5 text-base font-semibold text-slate-800 hover:text-[#0057A8] transition-all rounded-xl hover:bg-slate-100/90 hover:shadow-xs"
+                className="px-3.5 py-2 text-[15px] font-semibold text-slate-700 hover:text-[#0057A8] transition-all rounded-lg hover:bg-slate-100/80"
               >
                 {link.name}
               </a>
@@ -60,7 +60,7 @@ export default function Navbar() {
 
           {/* Right Action Button */}
           <div className="hidden lg:flex items-center gap-4">
-            <Button href="#contact" variant="primary" size="md">
+            <Button href="#contact" variant="primary" size="sm">
               Partner With Us
             </Button>
           </div>

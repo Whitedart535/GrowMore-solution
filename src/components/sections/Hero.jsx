@@ -6,7 +6,7 @@ import { ShieldCheck, Award } from 'lucide-react';
 
 export default function Hero() {
   return (
-    <section id="home" className="relative pt-36 sm:pt-44 lg:pt-52 pb-20 lg:pb-32 overflow-hidden bg-gradient-to-b from-slate-50 via-white to-slate-50">
+    <section id="home" className="relative pt-32 sm:pt-36 lg:pt-40 pb-20 lg:pb-32 overflow-hidden bg-gradient-to-b from-slate-50 via-white to-slate-50">
       
       {/* Background Subtle Mesh Grids */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#e2e8f015_1px,transparent_1px),linear-gradient(to_bottom,#e2e8f015_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)] pointer-events-none" />
