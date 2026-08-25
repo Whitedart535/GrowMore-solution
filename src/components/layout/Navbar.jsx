@@ -25,7 +25,7 @@ export default function Navbar() {
     { name: 'Solutions', href: '#solutions' },
     { name: 'Technology', href: '#technology' },
     { name: 'Operations', href: '#operations' },
-    { name: 'Coverage', href: '#coverage' },
+    { name: 'Security', href: '#security' },
     { name: 'Clients', href: '#clients' },
     { name: 'Contact', href: '#contact' },
   ];

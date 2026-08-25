@@ -11,14 +11,14 @@ export default function Button({
   className = '',
   type = 'button'
 }) {
-  const baseStyle = "inline-flex items-center justify-center font-semibold rounded-xl transition-all duration-300 transform active:scale-95 cursor-pointer shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2";
+  const baseStyle = "inline-flex items-center justify-center font-semibold rounded-xl transition-all duration-200 active:scale-98 cursor-pointer shadow-xs focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2";
   
   const variants = {
-    primary: "bg-[#0057A8] hover:bg-[#004687] text-white shadow-blue-900/20 hover:shadow-lg hover:shadow-[#0057A8]/30 focus:ring-[#0057A8]",
-    green: "bg-[#42A51F] hover:bg-[#368819] text-white shadow-green-900/20 hover:shadow-lg hover:shadow-[#42A51F]/30 focus:ring-[#42A51F]",
-    outline: "bg-white border-2 border-[#0057A8] text-[#0057A8] hover:bg-[#0057A8] hover:text-white focus:ring-[#0057A8]",
-    dark: "bg-[#0B1F33] border border-slate-700 hover:border-[#0057A8] text-white hover:bg-[#112942] focus:ring-slate-500",
-    ghost: "bg-transparent text-slate-700 hover:bg-slate-100 hover:text-[#0057A8] focus:ring-slate-300"
+    primary: "bg-[#0057A8] hover:bg-[#004687] text-white shadow-blue-900/15 hover:shadow-md hover:shadow-[#0057A8]/20 focus-visible:ring-[#0057A8]",
+    green: "bg-[#16A34A] hover:bg-[#15803D] text-white shadow-emerald-900/15 hover:shadow-md hover:shadow-[#16A34A]/20 focus-visible:ring-[#16A34A]",
+    outline: "bg-white border-2 border-[#0057A8] text-[#0057A8] hover:bg-[#0057A8] hover:text-white focus-visible:ring-[#0057A8]",
+    dark: "bg-[#0B1F33] border border-slate-700 hover:border-[#0057A8] text-white hover:bg-[#112942] focus-visible:ring-slate-500",
+    ghost: "bg-transparent text-slate-700 hover:bg-slate-100 hover:text-[#0057A8] focus-visible:ring-slate-300"
   };
 
   const sizes = {

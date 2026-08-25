@@ -50,8 +50,8 @@ export default function About() {
                 <div className="text-2xl font-extrabold text-[#0057A8]">30+ Yrs</div>
                 <div className="text-xs font-bold text-slate-600">Combined Leadership Depth</div>
               </div>
-              <div className="p-4 rounded-2xl bg-[#EAF5E5] border border-[#42A51F]/30">
-                <div className="text-2xl font-extrabold text-[#42A51F]">100% Ethical</div>
+              <div className="p-4 rounded-2xl bg-emerald-50 border border-emerald-200/80">
+                <div className="text-2xl font-extrabold text-[#15803D]">100% Ethical</div>
                 <div className="text-xs font-bold text-slate-700">Fair Collection Standards</div>
               </div>
             </div>
@@ -64,10 +64,10 @@ export default function About() {
               
               {/* Subtle background glow */}
               <div className="absolute top-0 right-0 w-64 h-64 bg-[#0057A8]/20 rounded-full blur-3xl pointer-events-none" />
-              <div className="absolute bottom-0 left-0 w-64 h-64 bg-[#42A51F]/20 rounded-full blur-3xl pointer-events-none" />
+              <div className="absolute bottom-0 left-0 w-64 h-64 bg-emerald-500/10 rounded-full blur-3xl pointer-events-none" />
 
               <h3 className="text-xl sm:text-2xl font-extrabold mb-6 flex items-center gap-2">
-                <span className="w-2 h-6 bg-[#42A51F] rounded-full" />
+                <span className="w-2 h-6 bg-[#16A34A] rounded-full" />
                 Foundational Operational Pillars
               </h3>
 

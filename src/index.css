@@ -3,11 +3,15 @@
 @layer base {
   :root {
     --primary-blue: #0057A8;
-    --growth-green: #42A51F;
+    --primary-blue-hover: #004687;
     --deep-navy: #0B1F33;
-    --soft-green: #EAF5E5;
+    --deep-navy-dark: #071524;
+    --growth-green: #16A34A;
+    --soft-green: #F0FDF4;
+    --soft-green-border: #DCFCE7;
     --bg-slate: #F8FAFC;
-    --text-slate: #475569;
+    --text-slate: #334155;
+    --text-dark: #0F172A;
     --border-slate: #E2E8F0;
   }
 
@@ -19,13 +23,13 @@
   }
 
   h1, h2, h3, h4, .font-heading {
-    font-family: 'Outfit', 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
   }
 }
 
 /* Gradient Text Utilities */
 .text-gradient-brand {
-  background: linear-gradient(135deg, #0057A8 0%, #0080FF 50%, #42A51F 100%);
+  background: linear-gradient(135deg, #0057A8 0%, #0284C7 50%, #16A34A 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -37,7 +41,7 @@
 }
 
 .text-gradient-green {
-  background: linear-gradient(135deg, #42A51F 0%, #2D7914 100%);
+  background: linear-gradient(135deg, #16A34A 0%, #15803D 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

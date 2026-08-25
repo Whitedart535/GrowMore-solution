@@ -23,19 +23,32 @@ export default function FieldOperations() {
           className="mb-16"
         />
 
-        {/* Operational Step Flow Pills */}
-        <div className="flex items-center justify-start lg:justify-center gap-2 overflow-x-auto pb-6 mb-16 no-scrollbar">
-          {steps.map((step, idx) => (
-            <React.Fragment key={step}>
-              <div className="px-4 py-2 rounded-full bg-white border border-slate-200 text-slate-800 text-xs font-extrabold whitespace-nowrap shadow-sm hover:border-[#0057A8] transition-all cursor-default">
-                <span className="text-[#0057A8] mr-1.5">{idx + 1}.</span>
-                {step}
-              </div>
-              {idx < steps.length - 1 && (
-                <span className="text-slate-300 font-bold shrink-0">→</span>
-              )}
-            </React.Fragment>
-          ))}
+        {/* Operational Step Flow Pills - Infinite Running Marquee Animation */}
+        <div className="relative w-full overflow-hidden mb-16 py-3 border-y border-slate-200/80 bg-white/70 backdrop-blur-md rounded-2xl shadow-xs">
+          {/* Gradient Edge Fade Masks */}
+          <div className="absolute left-0 top-0 bottom-0 w-16 sm:w-28 bg-gradient-to-r from-[#F8FAFC] via-[#F8FAFC]/80 to-transparent z-10 pointer-events-none" />
+          <div className="absolute right-0 top-0 bottom-0 w-16 sm:w-28 bg-gradient-to-l from-[#F8FAFC] via-[#F8FAFC]/80 to-transparent z-10 pointer-events-none" />
+
+          <motion.div
+            animate={{ x: ['0%', '-50%'] }}
+            transition={{
+              repeat: Infinity,
+              repeatType: 'loop',
+              ease: 'linear',
+              duration: 35
+            }}
+            className="flex items-center gap-3.5 w-max"
+          >
+            {[...steps, ...steps].map((step, idx) => (
+              <React.Fragment key={`${step}-${idx}`}>
+                <div className="px-4 py-2 rounded-full bg-white border border-slate-200 text-slate-800 text-xs font-extrabold whitespace-nowrap shadow-xs hover:border-[#0057A8] transition-all flex items-center gap-1.5 cursor-default">
+                  <span className="text-[#0057A8] font-black">{(idx % steps.length) + 1}.</span>
+                  <span>{step}</span>
+                </div>
+                <span className="text-slate-300 font-bold text-sm shrink-0">→</span>
+              </React.Fragment>
+            ))}
+          </motion.div>
         </div>
 
         {/* Mobile App Interactive Device Simulator & Capability Section */}

@@ -48,7 +48,7 @@ export default function WhyGrowMore() {
                 <div className={`w-14 h-14 rounded-2xl flex items-center justify-center mb-6 transition-transform group-hover:scale-110 ${
                   isHighlight
                     ? 'bg-[#0057A8] text-white shadow-md shadow-[#0057A8]/30'
-                    : 'bg-slate-100 text-[#0057A8] group-hover:bg-[#EAF5E5] group-hover:text-[#42A51F]'
+                    : 'bg-slate-100 text-[#0057A8] group-hover:bg-emerald-50 group-hover:text-[#16A34A]'
                 }`}>
                   <IconComponent className="w-7 h-7" />
                 </div>
@@ -63,7 +63,7 @@ export default function WhyGrowMore() {
 
                 {diff.statNote && (
                   <div className="pt-3 border-t border-slate-100">
-                    <span className="inline-block text-xs font-extrabold text-[#42A51F] bg-[#EAF5E5] px-3 py-1.5 rounded-lg border border-[#42A51F]/30">
+                    <span className="inline-block text-xs font-extrabold text-emerald-800 bg-emerald-50 px-3 py-1.5 rounded-lg border border-emerald-200/80">
                       {diff.statNote}
                     </span>
                   </div>

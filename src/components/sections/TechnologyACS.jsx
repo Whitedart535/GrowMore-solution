@@ -38,7 +38,7 @@ export default function TechnologyACS() {
                 <Cpu className="w-4 h-4 text-[#60A5FA] animate-spin" style={{ animationDuration: '8s' }} />
                 ACS Central Intelligence Hub
               </div>
-              <span className="text-xs font-bold text-[#42A51F] bg-[#EAF5E5]/10 px-3 py-1 rounded-full border border-[#42A51F]/30">
+              <span className="text-xs font-bold text-emerald-400 bg-emerald-500/10 px-3 py-1 rounded-full border border-emerald-500/30">
                 ● Live Data Flow
               </span>
             </div>
@@ -60,7 +60,7 @@ export default function TechnologyACS() {
                     }`}
                   >
                     {isSelected && (
-                      <div className="absolute top-0 right-0 w-16 h-16 bg-[#42A51F]/20 rounded-full blur-xl pointer-events-none" />
+                      <div className="absolute top-0 right-0 w-16 h-16 bg-emerald-500/20 rounded-full blur-xl pointer-events-none" />
                     )}
 
                     <div className="flex items-center justify-between mb-3">
@@ -85,7 +85,7 @@ export default function TechnologyACS() {
             {/* SVG Interactive Connection Pulses */}
             <div className="mt-8 pt-4 border-t border-slate-800 flex flex-wrap items-center justify-between gap-4 text-xs text-slate-400">
               <span className="flex items-center gap-1.5 font-semibold text-slate-300">
-                <ShieldCheck className="w-4 h-4 text-[#42A51F]" />
+                <ShieldCheck className="w-4 h-4 text-emerald-400" />
                 AES-256 Encrypted Institutional API Gateway
               </span>
               <span className="text-slate-400 font-mono text-[11px]">ISO 27001 & Statutory Audited</span>
@@ -105,10 +105,10 @@ export default function TechnologyACS() {
                 className="bg-gradient-to-br from-[#112942] via-[#0B1F33] to-[#081829] p-8 rounded-3xl border-2 border-[#0057A8]/50 shadow-2xl relative"
               >
                 <div className="flex items-center justify-between mb-6">
-                  <div className="w-12 h-12 rounded-2xl bg-[#42A51F] text-white flex items-center justify-center shadow-md shadow-[#42A51F]/30">
+                  <div className="w-12 h-12 rounded-2xl bg-emerald-600 text-white flex items-center justify-center shadow-md shadow-emerald-900/30">
                     <CheckCircle2 className="w-7 h-7" />
                   </div>
-                  <span className="text-xs font-bold text-[#42A51F] uppercase tracking-widest bg-[#EAF5E5]/10 px-3 py-1 rounded-md border border-[#42A51F]/30">
+                  <span className="text-xs font-bold text-emerald-400 uppercase tracking-widest bg-emerald-500/10 px-3 py-1 rounded-md border border-emerald-500/30">
                     Active Module Blueprint
                   </span>
                 </div>
@@ -123,7 +123,7 @@ export default function TechnologyACS() {
 
                 <div className="space-y-3 pt-6 border-t border-slate-700/60 text-sm text-slate-300">
                   <div className="flex items-center gap-3">
-                    <div className="w-2 h-2 rounded-full bg-[#42A51F] shrink-0" />
+                    <div className="w-2 h-2 rounded-full bg-emerald-400 shrink-0" />
                     <span>Automated SLA Tracking & Event Escalation</span>
                   </div>
                   <div className="flex items-center gap-3">

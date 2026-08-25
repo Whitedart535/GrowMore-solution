@@ -39,18 +39,18 @@ export default function MetricsStrip() {
                     whileInView={{ width: '100%' }}
                     viewport={{ once: true }}
                     transition={{ duration: 1, delay: idx * 0.1 }}
-                    className={`h-full rounded-full ${stat.disclaimer ? 'bg-amber-500' : 'bg-[#42A51F]'}`}
+                    className={`h-full rounded-full ${stat.disclaimer ? 'bg-amber-500' : 'bg-[#16A34A]'}`}
                   />
                 </div>
 
                 {stat.disclaimer ? (
-                  <span className="inline-flex items-center gap-1 text-[11px] font-semibold text-amber-700 bg-amber-50 px-2.5 py-1 rounded-md border border-amber-200/60">
+                  <span className="inline-flex items-center gap-1 text-[11px] font-semibold text-amber-800 bg-amber-50 px-2.5 py-1 rounded-md border border-amber-200/60">
                     <Info className="w-3 h-3 text-amber-600 shrink-0" />
                     {stat.disclaimer}
                   </span>
                 ) : (
-                  <span className="inline-flex items-center gap-1 text-[11px] font-semibold text-[#42A51F] bg-[#EAF5E5] px-2.5 py-1 rounded-md">
-                    <TrendingUp className="w-3 h-3 text-[#42A51F] shrink-0" />
+                  <span className="inline-flex items-center gap-1 text-[11px] font-semibold text-emerald-800 bg-emerald-50 border border-emerald-200/60 px-2.5 py-1 rounded-md">
+                    <TrendingUp className="w-3 h-3 text-[#16A34A] shrink-0" />
                     {stat.highlight}
                   </span>
                 )}

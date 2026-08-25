@@ -25,7 +25,7 @@ export default function NativeCalling() {
             {/* Performance Uplift Stat Card */}
             <div className="bg-white p-6 rounded-3xl border border-slate-200 shadow-sm space-y-3">
               <div className="flex items-center gap-4">
-                <div className="w-14 h-14 rounded-2xl bg-[#EAF5E5] text-[#42A51F] flex items-center justify-center font-extrabold text-2xl shadow-sm">
+                <div className="w-14 h-14 rounded-2xl bg-emerald-50 text-[#15803D] border border-emerald-200/80 flex items-center justify-center font-extrabold text-2xl shadow-xs">
                   <AnimatedCounter value={2} suffix="×" />
                 </div>
                 <div>
@@ -36,7 +36,7 @@ export default function NativeCalling() {
               <p className="text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
                 The source presentation reports a 2× performance uplift associated with native-language proficiency in tele-calling outreach.
               </p>
-              <div className="flex items-center gap-2 text-[11px] text-amber-700 bg-amber-50 p-3 rounded-xl border border-amber-200/60 font-medium">
+              <div className="flex items-center gap-2 text-[11px] text-amber-800 bg-amber-50 p-3 rounded-xl border border-amber-200/60 font-medium">
                 <Info className="w-4 h-4 text-amber-600 shrink-0" />
                 <span>Presented as a source-reported figure from historical portfolio operations.</span>
               </div>
@@ -51,7 +51,7 @@ export default function NativeCalling() {
                 <div className="text-xs font-semibold text-blue-100 mt-1">Native Language Callers</div>
               </div>
               <div className="p-5 rounded-2xl bg-[#0B1F33] text-white shadow-md">
-                <div className="text-3xl sm:text-4xl font-extrabold text-[#42A51F]">
+                <div className="text-3xl sm:text-4xl font-extrabold text-emerald-400">
                   <AnimatedCounter value={40} />
                 </div>
                 <div className="text-xs font-semibold text-slate-300 mt-1">Total Tele-Callers</div>

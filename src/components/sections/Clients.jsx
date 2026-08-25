@@ -36,13 +36,13 @@ export default function Clients() {
                 <h3 className="text-2xl font-extrabold text-[#0B1F33] mb-2">{client.name}</h3>
                 <p className="text-sm font-semibold text-slate-500 mb-4">{client.subtitle}</p>
 
-                <div className="inline-block px-3.5 py-1 rounded-full bg-[#EAF5E5] text-[#42A51F] text-xs font-bold border border-[#42A51F]/30">
+                <div className="inline-block px-3.5 py-1 rounded-full bg-emerald-50 text-[#15803D] text-xs font-bold border border-emerald-200/80">
                   {client.tag}
                 </div>
               </div>
 
-              <div className="mt-8 pt-4 border-t border-slate-100 flex items-center justify-center gap-1.5 text-xs text-slate-500 font-medium">
-                <CheckCircle2 className="w-4 h-4 text-[#42A51F]" />
+              <div className="mt-8 pt-4 border-t border-slate-100 flex items-center justify-center gap-1.5 text-xs text-slate-600 font-medium">
+                <CheckCircle2 className="w-4 h-4 text-[#16A34A]" />
                 <span>Verified Asset Resolution Partner</span>
               </div>
             </motion.div>

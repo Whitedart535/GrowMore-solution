@@ -13,10 +13,10 @@ export default function SectionHeading({
       {badge && (
         <div className={`inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider ${
           dark
-            ? 'bg-[#0057A8]/30 text-[#60A5FA] border border-[#0057A8]/50'
-            : 'bg-[#EAF5E5] text-[#42A51F] border border-[#42A51F]/30'
+            ? 'bg-[#0057A8]/25 text-[#60A5FA] border border-[#0057A8]/50'
+            : 'bg-emerald-50 text-[#15803D] border border-emerald-200/80'
         }`}>
-          <span className={`w-1.5 h-1.5 rounded-full ${dark ? 'bg-[#60A5FA]' : 'bg-[#42A51F]'}`}></span>
+          <span className={`w-1.5 h-1.5 rounded-full ${dark ? 'bg-[#60A5FA]' : 'bg-[#16A34A]'}`}></span>
           {badge}
         </div>
       )}
