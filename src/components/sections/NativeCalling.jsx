@@ -19,7 +19,7 @@ export default function NativeCalling() {
             <SectionHeading
               badge="Multilingual Outreach"
               title="Communication That Speaks Your Customer's Language"
-              subtitle="Deploying 30+ native language callers across 6 major Indian languages to overcome communication barriers and establish empathetic resolution."
+              subtitle="Deploying 50+ native language callers across 6 major Indian languages to overcome communication barriers and establish empathetic resolution."
             />
 
             {/* Performance Uplift Stat Card */}
@@ -46,13 +46,13 @@ export default function NativeCalling() {
             <div className="grid grid-cols-2 gap-4">
               <div className="p-5 rounded-2xl bg-[#0057A8] text-white shadow-md shadow-blue-900/10">
                 <div className="text-3xl sm:text-4xl font-extrabold">
-                  <AnimatedCounter value={30} suffix="+" />
+                  <AnimatedCounter value={50} suffix="+" />
                 </div>
                 <div className="text-xs font-semibold text-blue-100 mt-1">Native Language Callers</div>
               </div>
               <div className="p-5 rounded-2xl bg-[#0B1F33] text-white shadow-md">
                 <div className="text-3xl sm:text-4xl font-extrabold text-emerald-400">
-                  <AnimatedCounter value={40} />
+                  <AnimatedCounter value={50} suffix="+" />
                 </div>
                 <div className="text-xs font-semibold text-slate-300 mt-1">Total Tele-Callers</div>
               </div>

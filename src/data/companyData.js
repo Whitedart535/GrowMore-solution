@@ -9,7 +9,7 @@ export const companyInfo = {
   stats: [
     { label: "Years of Combined Experience", value: 30, suffix: "+", highlight: "Industry Expertise" },
     { label: "Field Agents", value: 50, suffix: "+", highlight: "On-Ground Reach" },
-    { label: "Native Language Callers", value: 30, suffix: "+", highlight: "Regional Engagement" },
+    { label: "Native Language Callers", value: 50, suffix: "+", highlight: "Regional Engagement" },
     { label: "PIN Codes Planned", value: 600, suffix: "+", highlight: "Expansion Goal", disclaimer: "Planned Expansion" },
     { label: "Urban Centres", value: 78, suffix: "", highlight: "Key Hubs Planned", disclaimer: "Planned Expansion" }
   ]
@@ -31,7 +31,7 @@ export const differentiators = [
   {
     id: "presence",
     title: "Extensive Tele-calling & Field Presence",
-    description: "Deploying 50+ trained field agents and 30+ native language callers for synchronized digital and ground operations.",
+    description: "Deploying 50+ trained field agents and 50+ native language callers for synchronized digital and ground operations.",
     icon: "PhoneCall"
   },
   {
@@ -63,7 +63,7 @@ export const capabilities = [
   },
   {
     title: "Tele-calling",
-    description: "Structured multi-lingual voice outreach driven by 30+ native language callers to resolve customer payment roadblocks effectively.",
+    description: "Structured multi-lingual voice outreach driven by 50+ native language callers to resolve customer payment roadblocks effectively.",
     icon: "Headphones"
   },
   {
@@ -161,7 +161,7 @@ export const segmentationTabs = [
 
 export const teamStructure = {
   totalFieldAgents: "50+",
-  totalCallers: "30+",
+  totalCallers: "50+",
   departments: [
     {
       title: "Executive & Central Leadership",
@@ -174,8 +174,8 @@ export const teamStructure = {
     {
       title: "Tele-Calling Operations",
       roles: [
-        { name: "Tele Callers", count: "40", detail: "Multi-lingual Voice Outreach" },
-        { name: "Native Language Callers", count: "30+", detail: "Specialized Regional Communicators" },
+        { name: "Tele Callers", count: "50+", detail: "Multi-lingual Voice Outreach" },
+        { name: "Native Language Callers", count: "50+", detail: "Specialized Regional Communicators" },
         { name: "Tele Calling Supervisors", count: "3", detail: "Quality Control & SLA Monitoring" }
       ]
     },

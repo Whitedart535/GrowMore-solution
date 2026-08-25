@@ -11,7 +11,7 @@ export default function About() {
     { title: "Regulatory Compliance", desc: "Full alignment with RBI code of conduct & fair practice codes", icon: ShieldCheck },
     { title: "Statutory Standards", desc: "Lawful, audited, and transparent resolution workflows", icon: FileCheck },
     { title: "Analytics & Intelligence", desc: "Proprietary risk scoring & contractability modeling", icon: BarChart2 },
-    { title: "Multi-lingual Calling", desc: "30+ native callers driving respectful voice resolution", icon: Headphones },
+    { title: "Multi-lingual Calling", desc: "50+ native callers driving respectful voice resolution", icon: Headphones },
     { title: "Field Operations", desc: "50+ agents providing verified ground visits", icon: MapPin },
     { title: "Ethical Practices", desc: "Dignified customer engagement protecting client reputation", icon: HeartHandshake }
   ];

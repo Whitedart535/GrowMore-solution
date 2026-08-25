@@ -87,7 +87,7 @@ export default function CollectionIntelligenceVisual() {
           </div>
           <div>
             <div className="text-xs font-extrabold text-slate-800">
-              <AnimatedCounter value={30} suffix="+" /> Native Callers
+              <AnimatedCounter value={50} suffix="+" /> Native Callers
             </div>
             <div className="text-[10px] text-slate-500 font-medium">6 Regional Dialects</div>
           </div>

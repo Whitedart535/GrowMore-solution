@@ -23,20 +23,20 @@ export default function Logo({
 
   return (
     <div 
-      className={`inline-flex items-center select-none logo-glow-wrapper shrink-0 ${activeSize}`}
+      className={`inline-flex items-center select-none shrink-0 ${activeSize}`}
       style={style}
     >
       <img
-        src="/logo.svg"
+        src="/logo.png"
         alt="Grow More Solution Logo"
-        className="h-full w-auto object-contain transition-all duration-300 transform"
+        className="h-full w-auto object-contain transition-all duration-300 transform group-hover:scale-105"
         style={{
-          imageRendering: 'crisp-edges',
+          imageRendering: 'high-quality',
           WebkitFontSmoothing: 'antialiased',
         }}
         onError={(e) => {
           e.target.onerror = null;
-          e.target.src = "/src/assets/logo.svg";
+          e.target.src = "/src/assets/logo.png";
         }}
       />
     </div>

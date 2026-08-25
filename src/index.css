@@ -48,13 +48,11 @@
 
 /* Logo Enhancements */
 .logo-glow-wrapper {
-  filter: drop-shadow(0 4px 12px rgba(0, 87, 168, 0.15));
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .logo-glow-wrapper:hover {
-  filter: drop-shadow(0 8px 24px rgba(66, 165, 31, 0.25)) drop-shadow(0 4px 16px rgba(0, 87, 168, 0.25));
-  transform: translateY(-1px) scale(1.03);
+  transform: translateY(-1px) scale(1.02);
 }
 
 /* Custom Background Visual Textures */

@@ -10,7 +10,7 @@ export default function InfrastructureGallery() {
     {
       id: 1,
       tag: "Bangalore Central Voice Operations Desk",
-      title: "30+ Native Language Callers Hub",
+      title: "50+ Native Language Callers Hub",
       desc: "Equipped with real-time ACS call monitoring, SLA tracking, and multi-lingual voice recording capabilities.",
       type: "voice",
       span: "md:col-span-8 bg-[#0B1F33] text-white",
