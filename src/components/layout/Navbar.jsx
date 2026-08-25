@@ -42,7 +42,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between">
           {/* Brand Logo - Enlarged & Attractive */}
           <a href="#home" className="flex items-center focus:outline-none group py-0.5">
-            <Logo className="h-12 sm:h-14 lg:h-16 xl:h-18" />
+            <Logo className="h-16 sm:h-20 lg:h-24 xl:h-28" />
           </a>
 
           {/* Desktop Navigation with Enhanced Font & Styling */}

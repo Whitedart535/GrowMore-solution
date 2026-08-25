@@ -12,10 +12,10 @@ export default function Logo({
 }) {
   // Pre-configured prominent size maps if specific size prop is provided
   const sizeClasses = {
-    sm: "h-10 sm:h-12",
-    md: "h-14 sm:h-16 lg:h-20",  // Increased, attractive size for navbar & headers
-    lg: "h-18 sm:h-22 lg:h-28",  // Extra bold for hero or showcase banners
-    xl: "h-24 sm:h-32 lg:h-40",  // Display banner size
+    sm: "h-14 sm:h-16",
+    md: "h-18 sm:h-22 lg:h-26",  // Increased, attractive size for navbar & headers
+    lg: "h-24 sm:h-30 lg:h-36",  // Extra bold for hero or showcase banners
+    xl: "h-32 sm:h-40 lg:h-52",  // Display banner size
   };
 
   const activeSize = className || sizeClasses[size] || sizeClasses.md;

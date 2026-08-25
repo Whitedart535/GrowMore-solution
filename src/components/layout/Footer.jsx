@@ -16,7 +16,7 @@ export default function Footer() {
           {/* Col 1: Brand & Descriptor */}
           <div className="lg:col-span-2 space-y-5">
             <div className="bg-white/95 p-4 rounded-2xl shadow-lg border border-slate-700/50 inline-block hover:bg-white transition-all">
-              <Logo className="h-14 sm:h-16" />
+              <Logo className="h-18 sm:h-22" />
             </div>
             <p className="text-sm font-bold text-[#42A51F] tracking-wider uppercase font-heading">
               Technology • Analytics • Collections • Recovery
