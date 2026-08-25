@@ -1,29 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 240" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="50 8 400 210" width="100%" height="100%" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
   <defs>
+    <!-- Brand Colors Gradients -->
     <linearGradient id="blueArrowGrad" x1="0%" y1="100%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#003D7A" />
+      <stop offset="0%" stop-color="#00356B" />
       <stop offset="50%" stop-color="#0057A8" />
-      <stop offset="100%" stop-color="#1B7DDD" />
+      <stop offset="100%" stop-color="#0284C7" />
     </linearGradient>
 
     <linearGradient id="greenBarGrad" x1="0%" y1="100%" x2="0%" y2="0%">
-      <stop offset="0%" stop-color="#2D7914" />
-      <stop offset="100%" stop-color="#42A51F" />
+      <stop offset="0%" stop-color="#15803D" />
+      <stop offset="100%" stop-color="#16A34A" />
     </linearGradient>
 
     <linearGradient id="greenLeafGrad" x1="0%" y1="100%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#348B18" />
-      <stop offset="100%" stop-color="#55C42B" />
+      <stop offset="0%" stop-color="#16A34A" />
+      <stop offset="100%" stop-color="#22C55E" />
     </linearGradient>
 
     <linearGradient id="growTextGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#3FA11C" />
-      <stop offset="100%" stop-color="#2D7A14" />
+      <stop offset="0%" stop-color="#16A34A" />
+      <stop offset="100%" stop-color="#15803D" />
     </linearGradient>
 
     <linearGradient id="moreTextGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#0057A8" />
-      <stop offset="100%" stop-color="#00356B" />
+      <stop offset="100%" stop-color="#0B1F33" />
     </linearGradient>
   </defs>
 
@@ -38,23 +39,28 @@
     <path d="M 62 60 C 42 45 45 25 62 20 C 65 38 78 45 62 60 Z" fill="url(#greenLeafGrad)" />
     <path d="M 85 52 C 85 22 105 10 105 32 C 105 48 92 56 85 52 Z" fill="url(#greenLeafGrad)" />
     <path d="M 102 58 C 118 42 142 50 135 68 C 118 70 108 62 102 58 Z" fill="url(#greenLeafGrad)" />
-    <path d="M 85 75 Q 86 52 95 38" fill="none" stroke="#266911" stroke-width="2.5" stroke-linecap="round" />
+    <path d="M 85 75 Q 86 52 95 38" fill="none" stroke="#15803D" stroke-width="2.8" stroke-linecap="round" />
 
     <!-- Upward Swooping Blue Arrow -->
     <path d="M 5 85 C 10 128 70 148 175 115 L 165 98 L 210 92 L 198 135 L 186 118 C 85 152 15 132 5 85 Z" fill="url(#blueArrowGrad)" />
-    <path d="M 28 116 C 60 132 120 122 180 90 C 125 116 65 120 28 116 Z" fill="#00356B" opacity="0.6" />
+    <path d="M 28 116 C 60 132 120 122 180 90 C 125 116 65 120 28 116 Z" fill="#002855" opacity="0.6" />
   </g>
 
   <!-- LOGO TYPOGRAPHY -->
-  <g transform="translate(250, 178)" text-anchor="middle">
-    <text x="-92" y="0" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-weight="800" font-size="52" fill="url(#growTextGrad)" letter-spacing="-1">Grow</text>
-    <text x="75" y="0" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-weight="800" font-size="52" fill="url(#moreTextGrad)" letter-spacing="-1">More</text>
+  <g transform="translate(250, 175)" text-anchor="middle">
+    <!-- "Grow" -->
+    <text x="-92" y="0" font-family="'Plus Jakarta Sans', 'Inter', system-ui, -apple-system, sans-serif" font-weight="900" font-size="54" fill="url(#growTextGrad)" letter-spacing="-1">Grow</text>
+    <!-- "More" -->
+    <text x="75" y="0" font-family="'Plus Jakarta Sans', 'Inter', system-ui, -apple-system, sans-serif" font-weight="900" font-size="54" fill="url(#moreTextGrad)" letter-spacing="-1">More</text>
   </g>
 
-  <!-- SOLUTIONS Subtitle -->
-  <g transform="translate(250, 212)" text-anchor="middle">
-    <line x1="-190" y1="-5" x2="-80" y2="-5" stroke="#94A3B8" stroke-width="1.8" stroke-linecap="round" />
-    <text x="0" y="0" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-weight="700" font-size="19" fill="#334155" letter-spacing="8">SOLUTIONS</text>
-    <line x1="80" y1="-5" x2="190" y2="-5" stroke="#94A3B8" stroke-width="1.8" stroke-linecap="round" />
+  <!-- SOLUTIONS Subtitle with Accent Lines -->
+  <g transform="translate(250, 210)" text-anchor="middle">
+    <!-- Left Line -->
+    <line x1="-190" y1="-5" x2="-80" y2="-5" stroke="#0057A8" stroke-width="2.2" stroke-linecap="round" opacity="0.85" />
+    <!-- Text -->
+    <text x="0" y="0" font-family="'Plus Jakarta Sans', 'Inter', system-ui, -apple-system, sans-serif" font-weight="800" font-size="20" fill="#0F172A" letter-spacing="8">SOLUTIONS</text>
+    <!-- Right Line -->
+    <line x1="80" y1="-5" x2="190" y2="-5" stroke="#16A34A" stroke-width="2.2" stroke-linecap="round" opacity="0.85" />
   </g>
 </svg>

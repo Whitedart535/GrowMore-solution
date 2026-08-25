@@ -23,13 +23,17 @@ export default function Logo({
 
   return (
     <div 
-      className={`inline-flex items-center select-none logo-glow-wrapper ${activeSize}`}
+      className={`inline-flex items-center select-none logo-glow-wrapper shrink-0 ${activeSize}`}
       style={style}
     >
       <img
         src="/logo.svg"
         alt="Grow More Solution Logo"
-        className="h-full w-auto object-contain filter drop-shadow-md transition-all duration-300 transform"
+        className="h-full w-auto object-contain transition-all duration-300 transform"
+        style={{
+          imageRendering: 'crisp-edges',
+          WebkitFontSmoothing: 'antialiased',
+        }}
         onError={(e) => {
           e.target.onerror = null;
           e.target.src = "/src/assets/logo.svg";
